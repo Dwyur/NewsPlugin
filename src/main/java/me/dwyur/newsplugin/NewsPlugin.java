@@ -75,7 +75,4 @@ public final class NewsPlugin extends JavaPlugin {
             });
         }), 0L, vkManager.getUpdateTime() * 20L);
     }
-
-
-
 }
