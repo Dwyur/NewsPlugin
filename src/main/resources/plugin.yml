@@ -1,0 +1,8 @@
+name: NewsPlugin
+version: '${project.version}'
+main: me.dwyur.newsplugin.NewsPlugin
+api-version: '1.16'
+author: Dwyur
+commands:
+  news:
+    description: News command

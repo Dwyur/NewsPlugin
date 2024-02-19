@@ -1,0 +1,20 @@
+database: # MySQL
+  host: "localhost" # хост
+  port: 3306 # порт
+  database: "news_plugin" # имя базы данных
+  username: "root" # имя юзера
+  password: "password" # пароль
+
+vk: # настройки вк группы
+  updater: 60 # авто обновление инфы о постах вк (в секундах)
+  userId: 123456 # клиент ID пользователя VK (например vk.com/id<тут ваш ID> или через сторонние сервисы)
+  accessToken: "yourAccessToken" # Access Token пользователя
+  domain: "moonstudio" # домен, где искать (то что идет после vk.com, https://vk.com/moonstudio)
+  formatText: true # убирать ли эмодзи и другие неподдерживаемые майном символы
+  maxLength: 294 # максимальное кол-во символов книги
+
+messages:
+  only-players: "§cОшибка, данная команда только для игроков!"
+  no-news: "§cНовостей нет! Как работает это СМИ.."
+  open-news: "§aВы открыли меню новостей!"
+  news: "§fНовая новость!"
