@@ -22,7 +22,7 @@ public class StringUtils {
         return buffer.toString().replaceFirst("^\\s+", "");
     }
 
-    public static List<String> splitStringByLength(String input, int maxLength) {
+    public List<String> splitStringByLength(String input, int maxLength) {
         List<String> result = new ArrayList<>();
 
         if (input == null || input.isEmpty() || maxLength <= 0) {
